@@ -4,11 +4,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hello World App"),
+        title: Text("Catalog App"),
       ),
       body: Center(
         child: Container(
-          child: Text("This is My first Hello World App"),
+          child: Text(
+            "Hello World",
+            style: TextStyle(fontSize: 30, color: Colors.blue),
+          ),
         ),
       ),
       drawer: Drawer(),
